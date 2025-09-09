@@ -23,7 +23,7 @@ pipeline {
 
         stage('Build AMI with Packer') {
             steps {
-                // Save output to packer.log####veera
+                // Save output to packer.log####pavan
                 sh '''
                    packer validate packer.pkr.hcl
                    packer build packer.pkr.hcl | tee packer.log
