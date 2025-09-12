@@ -3,7 +3,7 @@ pipeline {
 // pavan
     environment {
         AWS_REGION = 'us-east-1'
-        LAUNCH_TEMPLATE_ID = 'lt-04f4d7cd88876c81d'
+        LAUNCH_TEMPLATE_ID = 'lt-0b834b45d40bb680f'
         ASG_NAME = "ASG"
         
     }
